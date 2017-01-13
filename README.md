@@ -1,31 +1,18 @@
-# MpIrcTemp
+# MP-IRC #
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
+This is both an attempt to build a multi-platform IRC client, as well as an attempt to work with Electron wrapping Angular2.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Development ##
 
-## Code scaffolding
+Use the npm script `start` to run the ng build script and tsc in watch mode and start the electron app.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
-## Build
+## Build ##
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+WIP
 
-## Running unit tests
+## Notes ##
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+There is an associated set of blog entries at hwillkruse.com describing what I'm doing and a set of tags on the repo that are each associated with one of the entries.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Deploying to Github Pages
-
-Run `ng github-pages:deploy` to deploy to Github Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The first entry in that series is at https://hwillkruse.com/electronangular2-getting-started/
