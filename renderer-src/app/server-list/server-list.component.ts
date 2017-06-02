@@ -1,3 +1,4 @@
+import { ServerListService } from './server-list.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./server-list.component.less']
 })
 export class ServerListComponent implements OnInit {
+    servers = [];
+    constructor(serverListService: ServerListService) {
+        this.servers = serverListService.servers;
+    }
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
 }
